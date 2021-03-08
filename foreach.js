@@ -1,25 +1,25 @@
-// const numbers = [1,2,3,4,5]
+const numbers = [1,2,3,4,5]
 
-// numbers.forEach(countNum)
+numbers.forEach(countNum)
 
-// function countNum(item, index, arr){
-//   console.log(item)
-// }
+function countNum(item, index, arr){
+  console.log(item)
+}
 
 
 
 // Add up all the items in the array of numbers
-// let sum = 0
+let sum = 0
 
 // forEach method
-// numbers.forEach(item => sum += item)
-// console.log(sum) // Prints 15
+numbers.forEach(item => sum += item)
+console.log(sum) // Prints 15
 
 // reduce method
-// const reducer = (accumulator, currentValue) => accumulator + currentValue
-// const total = numbers.reduce(reducer)
+const reducer = (accumulator, currentValue) => accumulator + currentValue
+const total = numbers.reduce(reducer)
 
-// console.log(total)
+console.log(total)
 
 
 // How many times a letter appears in an array

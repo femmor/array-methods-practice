@@ -1,18 +1,18 @@
 const numbers = [1,2,3,4,5]
 
-// const reducer = (accumulator, currentValue) => accumulator + currentValue
-// const total = numbers.reduce(reducer)
+const reducer = (accumulator, currentValue) => accumulator + currentValue
+const total = numbers.reduce(reducer)
 
-// console.log(total)
+console.log(total)
 
 // 2nd method
-// const total = numbers.reduce(sum, 0)
+const total = numbers.reduce(sum, 0)
 
-// function sum(accumulator, value){
-//   return accumulator + value
-// }
+function sum(accumulator, value){
+  return accumulator + value
+}
 
-// console.log(total)
+console.log(total)
 
 
 // Get the maximum number in an array
